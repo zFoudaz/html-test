@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- animated -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> 
+    <div class="bg-primary d-none d-lg-flex">
+        <div class="container-lg">
+            <div class=" row justify-content-between w-100 mx-auto py-2 ">
+                <div class=" col-6 row align-items-center">
+                    <ul class="nav border-end col-6 justify-content-between">
+                        <li class="nav-item col-2"> <a href=""><i class="fa-brands fa-facebook text-white"></i></a></li>
+                        <li class="nav-item col-2"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></li>
+                        <li class="nav-item col-2"><a href=""><i class="fa-brands fa-linkedin text-white"></i></a></li>
+                        <li class="nav-item col-2"><a href=""><i class="fa-brands fa-instagram text-white"></i></a></li>
+                        <li class="nav-item col-2"><a href=""><i class="fa-brands fa-g text-white"></i></a></li>
+                    </ul>
+                    <div class="col-6 row align-items-center">
+                        <a class="col-2" href=""><i class="fa-solid fa-location-dot text-white "></i></a>
+                        <span class="col-10 fs-6 text-white " >267 Park Avenue New York</span>
+                    </div>
+                </div>
+                <div class=" col-4  ">
+                    <i class="fa-solid fa-envelope text-white"></i>
+                    <span class="text-white border-end pe-3 me-3 ">Quick Email</span>
+                    <i class="fa-solid fa-phone text-white"></i>
+                    <span class="text-white">+1(409)987-5874</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-lg">
+            <a class="nav-brand" href=""><img src="./imgs/Logo.png" alt=""></a>
+            <button class="navbar-toggler btn btn-dark" data-bs-toggle="collapse" data-bs-target="#navContent"><i class="fa-solid fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav m-auto row">
+                    <li class="nav-item col dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dd"  data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu" aria-labelledby="dd">
+                          <li><a class="dropdown-item" href="#">Home1</a></li>
+                          <li><a class="dropdown-item" href="#">Home2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item col"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item col"><a href="" class="nav-link">Headers</a></li>
+                    <li class="nav-item col"><a href="" class="nav-link">Blog</a></li>
+                    <li class="nav-item col"><a href="" class="nav-link">Services</a></li>
+                    <li class="nav-item col"><a href="" class="nav-link">Features</a></li>
+                    <li class="nav-item col"><a href="" class="nav-link">Pages</a></li>
+                    <li class="nav-item col"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-indicators mx-5 align-items-end" style="flex-direction: column; bottom: 40%; width: 10px; left:90%;">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" style="width: 10px; height: 10px;" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="width: 10px; height: 10px;"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="width: 10px; height: 10px;">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" style="width: 10px; height: 10px;"></button>
+        </div>
+        <div class="carousel-inner" style="height: 700px;">
+          <div class="carousel-item active h-100 position-relative">
+            <img src="./imgs/1.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block " style="bottom: 35%;" >
+              <h5 class="h1 fs-1 my-5"></h5>
+              <p class="fs-5 mb-5"></p>
+              <div class="d-flex justify-content-center">
+                <!-- <button class="btn btn-primary btn-lg rounded-pill">Get Start Now</button>
+                <button class="btn btn-dark btn-lg rounded-pill bg-transparent border ">Contact us</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="./imgs/2.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block " style="bottom: 35%;" >
+                <h5 class="h1 fs-1 my-5">What You Do Today For Peoples</h5>
+                <p class="fs-5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam suscipit consectetur earum veritatis, repellendus aperiam quidem beatae, tenetur hic illum unde atque sequi facere maxime maiores corrupti. Praesentium, quos consectetur.</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary btn-lg rounded-pill">Get Start Now</button>
+                  <button class="btn btn-dark btn-lg rounded-pill bg-transparent border ">Contact us</button>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="./imgs/3.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block " style="bottom: 35%;" >
+                <h5 class="h1 fs-1 my-5">What You Do Today For Peoples</h5>
+                <p class="fs-5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam suscipit consectetur earum veritatis, repellendus aperiam quidem beatae, tenetur hic illum unde atque sequi facere maxime maiores corrupti. Praesentium, quos consectetur.</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary btn-lg rounded-pill">Get Start Now</button>
+                  <button class="btn btn-dark btn-lg rounded-pill bg-transparent border ">Contact us</button>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item h-100" >
+            <img src="./imgs/4.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block " style="bottom: 35%;" >
+                <h5 class="h1 fs-1 my-5">What You Do Today For Peoples</h5>
+                <p class="fs-5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam suscipit consectetur earum veritatis, repellendus aperiam quidem beatae, tenetur hic illum unde atque sequi facere maxime maiores corrupti. Praesentium, quos consectetur.</p>
+                <div class="d-flex justify-content-center">
+                  <button class="btn btn-primary btn-lg rounded-pill">Get Start Now</button>
+                  <button class="btn btn-dark btn-lg rounded-pill bg-transparent border ">Contact us</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+      <div class="abt pt-4 my-4" style=" text-align: center; position: relative;">
+          <h2 class="deco" style="position: relative;"><span>About Us</span></h2>
+      </div>
+      <p class="text-muted pb-4" style="text-align: center;">About us</p>
+      <div class="row position-relative justify-content-center h-100">
+        <div class="left1 m-2 col-lg-3 col-md-5 col-sm-12 bg-white shadow-lg align-items-start h-75 "> 
+          <div class="d-flex">
+            <i class="fa-solid fa-bullhorn  border-end border-muted m-2 p-3"></i>
+            <div class="">
+              <h4 class="pt-2">Marketing</h4>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+            </div>
+          </div>
+          <div class="d-flex ">
+            <i class="fa-solid fa-sliders  border-end border-muted m-2 p-3"></i>
+            <div class="">
+              <h3 class="pt-2">Marketing</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-tv  border-end border-muted m-2 p-3"></i>
+            <div class="">
+              <h3 class="pt-2">Marketing</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <i class="fa-regular fa-thumbs-up border-end border-muted m-2 p-3"></i>
+            <div class="">
+              <h3 class="pt-2">Marketing</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="m-2 col-lg-5 col-md-6 col-sm-12" style="height: 100%; ">
+          <img src="./imgs/p1.jpg" class="w-100" alt="" style="height: 500px;">
+        </div>
+        <div class="mt-4 col-lg-3 col-md-12 col-sm-12">
+          <p>
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis.
+          </p>
+          <p>
+            Dorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis.
+          </p>
+          <button class="btn btn-primary rounded-pill">Learn More</button>
+        </div> 
+      </div>
+      <div>
+        <div class=" office ">
+          <div class="dark">
+            <div class="abt pt-4 my-4" style=" text-align: center; position: relative;">
+              <h2 class="deco" style="position: relative;"><span class="text-light">Our Services</span></h2>
+            </div>
+          <p class="text-light pb-4 w-75 m-auto" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p>
+          <div class=" row justify-content-evenly px-5 container-lg mx-auto">
+              <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+                <div class="parent bg-dark text-light text-center fs-1 bg-transparent border d-flex align-items-center justify-content-center" style="flex-direction: column;">
+                  <i class="fa-solid fa-cloud-arrow-up "></i>
+                  <p>Online Marketing</p>
+                  <div class="child bg-light text-dark fs-5 d-flex justify-content-center align-items-center" style="flex-direction: column;" >
+                    <p class="fs-2">online marketting</p>
+                    <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary rounded-pill">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+                <div class="parent bg-dark text-light text-center fs-1 bg-transparent border d-flex align-items-center justify-content-center" style="flex-direction: column;">
+                  <i class="fa-solid fa-tv "></i>
+                  <p>Web Designs</p>
+                  <div class="child bg-light text-dark fs-5 d-flex justify-content-center align-items-center" style="flex-direction: column;" >
+                    <p class="fs-2">online marketting</p>
+                    <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary rounded-pill">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+                <div class="parent bg-dark text-light text-center fs-1 bg-transparent border d-flex align-items-center justify-content-center" style="flex-direction: column;">
+                  <i class="fa-solid fa-pencil "></i>
+                  <p>Graphic Designs</p>
+                  <div class="child bg-light text-dark fs-5 d-flex justify-content-center align-items-center" style="flex-direction: column;" >
+                    <p class="fs-2">Graphic Designs</p>
+                    <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary rounded-pill">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+                <div class="parent bg-dark text-light text-center fs-1 bg-transparent border d-flex align-items-center justify-content-center" style="flex-direction: column;">
+                  <i class="fa-solid fa-desktop "></i>
+                  <p>Web Development</p>
+                  <div class="child bg-light text-dark fs-5 d-flex justify-content-center align-items-center" style="flex-direction: column;" >
+                    <p class="fs-2">Web Development</p>
+                    <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary rounded-pill">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+                <div class="parent bg-dark text-light text-center fs-1 bg-transparent border d-flex align-items-center justify-content-center" style="flex-direction: column;">
+                  <i class="fa-solid fa-network-wired "></i>
+                  <p>Networking</p>
+                  <div class="child bg-light text-dark fs-5 d-flex justify-content-center align-items-center" style="flex-direction: column;" >
+                    <p class="fs-2">Networking</p>
+                    <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary rounded-pill">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+                <div class="parent bg-dark text-light text-center fs-1 bg-transparent border d-flex align-items-center justify-content-center" style="flex-direction: column;">
+                  <i class="fa-brands fa-wordpress-simple "></i>
+                  <p>WordPress Themes</p>
+                  <div class="child bg-light text-dark fs-5 d-flex justify-content-center align-items-center" style="flex-direction: column;" >
+                    <p class="fs-2">WordPress Themes</p>
+                    <p class="px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary rounded-pill">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="abt pt-4 my-4" style=" text-align: center; position: relative;">
+          <h2 class="deco" style="position: relative;"><span class="text-dark">Our Work</span></h2>
+        </div>
+        <p class="text-center w-75 mx-auto text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
+        <div class="row text-dark justify-content-center align-items-center mx-auto links">
+          <a href="" class="col-lg-2 col-sm-5">All<span class="ms-5">/</span></a>
+          <a href="" class="col-lg-2 col-sm-5">Creative Design <span class="ms-5">/</span></a>
+          <a href="" class="col-lg-2 col-sm-5">Development <span class="ms-5">/</span></a>
+          <a href="" class="col-lg-2 col-sm-5">Graphic Design</a>
+        </div>
+        <div class="row container-sm mx-auto justify-content-between mt-5" >
+          <div class="parent2 col-lg-4 col-md-5 col-sm-12 p-0">
+            <img src="./imgs/b1.jpg" alt="">
+            <div class="child2">
+              <div>
+                <p>Developement, Graphic Design</p>
+                <p>Project Title 1</p>
+              </div>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="parent2 col-lg-4 col-md-5 col-sm-12 p-0">
+            <img src="./imgs/b2.jpg" alt="">
+            <div class="child2">
+              <div>
+                <p>Developement, Graphic Design</p>
+                <p>Project Title 2</p>
+              </div>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="parent2 col-lg-4 col-md-5 col-sm-12 p-0">
+            <img src="./imgs/b3.jpg" alt="">
+            <div class="child2">
+              <div>
+                <p>Creative Design, Developement, Graphic Design, Networking</p>
+                <p>Project Title 3</p>
+              </div>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="parent2 col-lg-4 col-md-5 col-sm-12 p-0">
+            <img src="./imgs/b4.jpg" alt="">
+            <div class="child2">
+              <div>
+                <p>Developement, Graphic Design</p>
+                <p>Project Title 4</p>
+              </div>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="parent2 col-lg-4 col-md-5 col-sm-12 p-0">
+            <img src="./imgs/b5.jpg" alt="">
+            <div class="child2">
+              <div>
+                <p>Developement, Graphic Design</p>
+                <p>Project Title 5</p>
+              </div>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="parent2 col-lg-4 col-md-5 col-sm-12 p-0">
+            <img src="./imgs/b6.jpg" alt="">
+            <div class="child2">
+              <div>
+                <p>Developement, Graphic Design</p>
+                <p>Project Title 6</p>
+              </div>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./imgs/ecommerce-cover-2.jpg " class="w-100 h-100" alt="">
+      </div>
+      <div>
+        <div class="abt pt-4 my-4" style=" text-align: center; position: relative;">
+          <h2 class="deco" style="position: relative;"><span class="text-dark">Our Creative Team</span></h2>
+        </div>
+        <p class="text-center w-50 mx-auto text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
+        <div class="row mb-5 container-lg mx-auto justify-content-evenly">
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team1.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">jen whyan</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team2.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">Mical Peterson</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team3.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">sara corner</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly  staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div><div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team4.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">milly jackson</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team5.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">clark jackson</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly  staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team6.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">john jojo</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team8.png"  alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">Mohamed Hossam</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team7.png" alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">Ahmed Elgabry</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12 text-center parent3" style=" position: relative;">
+            <img src="./imgs/team9.jpg"alt="">
+            <div class="bg-light shadow-lg position-absolute child3 position-relative">
+              <p class="fs-4 m-0">Mohamed Maged</p>
+              <p class="text-primary mx-auto desc">Founder</p>
+              <p>Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.</p>
+              <div class="w-50 bg-primary row justify-content-evenly staff-sm">
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1"  href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-light col-1" href=""><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="abt pt-4 my-4" style=" text-align: center; position: relative;">
+        <h2 class="deco" style="position: relative;"><span class="text-dark">Our Pricing</span></h2>
+      </div>
+      <p class="text-center w-50 mx-auto text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
+      <div class="w-100 d-flex justify-content-center my-5">
+        <div class="btn-group">
+          <button class="btn btn-light border border-lg btn-lg px-5" style="border-radius: 50px  0  0 50px;" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse">Per / Month</button>
+          <button class="btn btn-primary btn-lg px-5" style="border-radius:  0 50px  50px 0;" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" >Per / Year</button>
+        </div>
+      </div>
+      <div class="row pricing mb-5">
+        <div class="col-12">
+          <div class="collapse multi-collapse show row mx-auto justify-content-center" id="multiCollapse" style="width: 65%;">
+            <div class=" col-lg-4 col-md-6 col-sm-6 text-center border">
+              <h4 class="p-2">Personal</h4>
+              <hr style="border-bottom: 3px solid rgb(0, 0, 255); width: 20%;" class="mx-auto">
+              <span >From <span class="text-primary">$399</span></span>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>03 PSD Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 03 Wordpress Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 120 Support Tiket</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <button class="btn btn-primary rounded-pill btn-lg">Get Started Now</button>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-6 text-center border shadow-lg">
+              <h4 class="p-2">Business</h4>
+              <hr style="border-bottom: 3px solid rgb(0, 0, 255); width: 20%;" class="mx-auto">
+              <span >From <span class="text-primary">$899</span></span>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>05 PSD Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>05 Wordpress Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>1000 Support Tiket</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <button class="btn btn-primary rounded-pill btn-lg">Get Started Now</button>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-6 text-center border">
+              <h4 class="p-2">Ultimate</h4>
+              <hr style="border-bottom: 3px solid rgb(0, 0, 255); width: 20%;" class="mx-auto">
+              <span >From <span class="text-primary">$399</span></span>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>20 PSD Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 20 Wordpress Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 1500 Support Tiket</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <button class="btn btn-primary rounded-pill btn-lg">Get Started Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 ">
+          <div class="collapse multi-collapse row mx-auto justify-content-center" style="width: 65%;" id="multiCollapse">
+            <div class=" col-lg-4 col-md-6 col-sm-6 text-center border">
+              <h4 class="p-2">Business</h4>
+              <hr style="border-bottom: 3px solid rgb(0, 0, 255); width: 20%;" class="mx-auto">
+              <span >From <span class="text-primary">$399</span></span>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>03 PSD Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 03 Wordpress Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 120 Support Tiket</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <button class="btn btn-primary rounded-pill btn-lg">Get Started Now</button>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-6 text-center border ">
+              <h4 class="p-2">Ultimate</h4>
+              <hr style="border-bottom: 3px solid rgb(0, 0, 255); width: 20%;" class="mx-auto">
+              <span >From <span class="text-primary">$799</span></span>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>05 PSD Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>05 Wordpress Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>1000 Support Tiket</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <button class="btn btn-primary rounded-pill btn-lg">Get Started Now</button>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-6 text-center border shadow-lg">
+              <h4 class="p-2">Personal</h4>
+              <hr style="border-bottom: 3px solid rgb(0, 0, 255); width: 20%;" class="mx-auto">
+              <span >From <span class="text-primary">$1499</span></span>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span>20 PSD Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 20 Wordpress Pack</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <div class="my-3">
+                <i class="fa-solid fa-check"></i>
+                <span> 1500 Support Tiket</span>
+                <p class="text-muted w-50 mx-auto pb-4">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                <hr style="border-bottom: 1px solid rgb(0, 0, 255); width: 75%;" class="mx-auto">
+              </div>
+              <button class="btn btn-primary rounded-pill btn-lg">Get Started Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark row align-items-center" > 
+        <div class="col-lg-6 text-center d-flex justify-content-center align-items-center p-5">
+          <i class="fa-solid fa-envelope text-light me-3" style="font-size: 50px;"></i>
+          <span class="text-light" style="font-size: 40px; ">Subscribe now for news</span>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center m-sm-4 m-lg-0">
+          <input type="email" placeholder="Input Your Email" name="" id="" class="w-50 p-2 me-3 " style="height: 50px; border-radius:10px ;">
+          <button class="btn btn-primary btn-lg rounded-pill">Subscribe</button>
+        </div>
+      </div>
+      <div class="abt pt-4 my-4" style=" text-align: center; position: relative;">
+        <h2 class="deco" style="position: relative;">Latest Blog</h2>
+      </div>
+      <p class="text-center w-50 mx-auto text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
+      <div class="mx-auto row justify-content-center " style="width: 85%;">
+        <div class="blog col-lg-3 col-md-5 col-sm-12 m-2 shadow-lg">
+          <div class="bligIMG w-100">
+            <img src="./imgs/blog.png" class="w-100" alt="">
+          </div>
+          <div class="d-flex">
+            <div class="blogSM d-flex flex-column">
+              <a class="mt-3" href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-google"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class=" ps-3 blogText">
+              <h4 class=" mt-3 pe-1">Four ways to cheer and plan your self up on Blue</h4>
+              <div class="d-flex gap-4 blogWR text-muted " style="font-size: 14px;">
+                <div>
+                  <i class="fa-regular fa-user"></i>
+                  <span class="pe-3 border-end">By Dtm_demo</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span>19 Dec 2018</span>
+                </div>
+              </div>
+              <div class="progress me-3 my-3" style="height: 1px;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="my-3 text-muted">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+              <div class="ReadMore d-flex align-items-center pb-4">
+                <span>Read More</span>
+                <i class="fa-solid fa-arrow-right ar"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog col-lg-3 col-md-5 col-sm-12 m-2 shadow-lg">
+          <div class="bligIMG w-100">
+            <img src="./imgs/blog2.jpg" class="w-100" alt="">
+          </div>
+          <div class="d-flex">
+            <div class="blogSM d-flex flex-column">
+              <a class="mt-3" href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-google"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class=" ps-3 blogText">
+              <h4 class=" mt-3 pe-1">Four ways to cheer and plan your self up on Blue</h4>
+              <div class="d-flex gap-4 blogWR text-muted " style="font-size: 14px;">
+                <div>
+                  <i class="fa-regular fa-user"></i>
+                  <span class="pe-3 border-end">By Dtm_demo</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span>19 Dec 2018</span>
+                </div>
+              </div>
+              <div class="progress me-3 my-3" style="height: 1px;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="my-3 text-muted">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+              <div class="ReadMore d-flex align-items-center pb-4">
+                <span>Read More</span>
+                <i class="fa-solid fa-arrow-right ar"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog col-lg-3 col-md-5 col-sm-12 m-2 shadow-lg">
+          <div class="bligIMG w-100">
+            <img src="./imgs/blog3.jpg" class="w-100" alt="">
+          </div>
+          <div class="d-flex">
+            <div class="blogSM d-flex flex-column">
+              <a class="mt-3" href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-google"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class=" ps-3 blogText">
+              <h4 class=" mt-3 pe-1">Four ways to cheer and plan your self up on Blue</h4>
+              <div class="d-flex gap-4 blogWR text-muted " style="font-size: 14px;">
+                <div>
+                  <i class="fa-regular fa-user"></i>
+                  <span class="pe-3 border-end">By Dtm_demo</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <span>19 Dec 2018</span>
+                </div>
+              </div>
+              <div class="progress me-3 my-3" style="height: 1px;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="my-3 text-muted">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+              <div class="ReadMore d-flex align-items-center pb-4">
+                <span>Read More</span>
+                <i class="fa-solid fa-arrow-right ar"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--wow-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>
